@@ -52,7 +52,10 @@ async function fetch_one_sketch() {
 	console.log(Object.keys(randomSketch))
 	return randomSketch
 }
+function mousePressed(){
+	isDrawing = true;
 
+}
 function mouseDragged() {
 	//button_save.hide();
 
